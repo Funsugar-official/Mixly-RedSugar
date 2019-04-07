@@ -1,0 +1,55 @@
+<!-- type="company" block="block/RedSugar.js" generator="generator/RedSugar.js"  lib="RedSugar" media="media/RedSugar" language="language/RedSugar"-->
+<script type="text/javascript" src="../../blocks/company/RedSugar.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/RedSugar.js"></script>
+<category id="catRedSugar" name="RedSugar" colour="#FF6680">
+  
+	<block type="dual_motor">
+		<value name="speed">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+	</block>
+	  
+	<block type="MP3_VOL">
+		<value name="TX_PIN">
+			<shadow type="pins_digital"></shadow>
+		</value>
+        <value name="VOLUME">
+			<shadow type="math_number">
+				<field name="NUM">20</field>
+			</shadow>
+		</value>
+    </block>
+	<block type="MP3_PLAY">
+		<value name="TX_PIN">
+			<shadow type="pins_digital"></shadow>
+		</value>
+        <value name="NUM">
+			<shadow type="math_number">
+				<field name="NUM">1</field>
+			</shadow>
+		</value>
+    </block>
+	<block type="MP3_STATE">
+		<value name="TX_PIN">
+			<shadow type="pins_digital"></shadow>
+		</value>
+	</block>
+	<block type="MP3_MODE">
+		<value name="TX_PIN">
+			<shadow type="pins_digital"></shadow>
+		</value>
+	</block>
+	<block type="MP3_PLAY_DISTANCE">
+		<value name="TX_PIN">
+			<shadow type="pins_digital"></shadow>
+		</value>
+        <value name="NUM">
+			<shadow type="math_number">
+				<field name="NUM">123</field>
+			</shadow>
+		</value>
+    </block>
+			
+</category>
